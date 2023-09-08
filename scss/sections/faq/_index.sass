@@ -1,0 +1,50 @@
+.faq
+    padding: 64px 0
+    .title
+        margin-bottom: 40px
+    &-accordion
+        &:not(:last-child)
+            margin-bottom: 10px
+        .accordion
+            &-title
+                padding: 15px 30px
+                background-color: #EEEEEE
+                border-radius: 5px
+                cursor: pointer
+                display: flex
+                justify-content: space-between
+                span
+                    color: #202E24
+                    font-size: 16px
+                    font-weight: 700
+                    line-height: 20px
+                    letter-spacing: -0.64px
+                    margin-right: 20px
+            &-content
+                color: #222
+                font-family: Open Sans
+                font-size: 14px
+                font-weight: 400
+                line-height: 22px
+                transition: .2s color
+                background-color: #DEDEDE
+                border-radius: 0 0 5px 5px
+                height: 0
+                overflow: hidden
+
+                a
+                    color: #077B00
+                    &:hover
+                        text-decoration: underline
+                        color: #202e24
+                        transition: .2s color
+        &--active
+            .accordion
+                &-title
+                    border-radius: 5px 5px 0 0
+                    i
+                        transform: rotate(-180deg)
+                &-content
+                    padding: 8px 30px 18px
+                    height: max-content
+                    transition: .3s height

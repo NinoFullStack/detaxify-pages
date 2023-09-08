@@ -1,0 +1,32 @@
+@media (max-width: 1200px)
+    .services
+        &-list
+            gap: 50px 30px
+        &-item 
+            width: calc(50% - 30px)
+
+@media (max-width: 900px)
+    .services
+        &-item
+            width: calc(100% - 30px) 
+ 
+@media (max-width: 768px)
+    .services
+        &-our
+            .our-title
+                padding-left: 0
+                text-align: center
+        &-row
+            flex-direction: column
+        &-item 
+            width: calc(50% - 30px)
+            .item-title
+                font-size: 16px
+        &-slider
+            max-width: 100%
+            margin-top: 40px
+
+@media (max-width: 550px)
+    .services
+        &-item
+            width: 100%

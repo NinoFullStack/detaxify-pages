@@ -1,0 +1,89 @@
+.learn-detail
+    padding: 32px 0 52px
+    &__title
+        color: #222
+        font-size: 36px
+        font-weight: 700
+        line-height: 45px
+        letter-spacing: -2.16px
+        margin: 27px 0 30px
+        position: relative
+        padding-bottom: 15px
+        &::before
+            content: ''
+            border-radius: 3px
+            background-color: #B3C87A
+            position: absolute
+            left: 0
+            bottom: 0
+            width: 35px
+            height: 6px
+    &__time
+        color: #777
+        font-family: 'Open Sans'
+        font-size: 13px
+        font-weight: 400
+        line-height: 18.571px
+        margin-bottom: 10px
+
+        i
+            margin-right: 3px
+            color: #B3C87A
+    &__content
+        border-top: 1px solid #DDD
+        padding-top: 14px
+        width: 100%
+    &__img
+        width: 100%
+        margin-bottom: 43px
+    &__description
+        margin-bottom: 40px
+        .description
+            &-bold
+                font-family: Arimo
+                font-weight: 700
+            &-text
+                margin-bottom: 15px
+                color: #222
+                font-family: 'Open Sans'
+                font-size: 14px
+                font-weight: 400
+                line-height: 26px
+                &--color
+                    margin-bottom: 10px
+                    color: #777
+                &--conclusion
+                    margin-top: 10px
+            &-link
+                color: #077B00
+                &:hover
+                    text-decoration: underline
+                    color: #222
+    &__helpers
+        display: flex
+        flex-wrap: wrap
+        gap: 6px
+    &__helper
+        display: block
+        padding: 6px 9px
+        color: #777
+        font-family: 'Open Sans'
+        font-size: 13px
+        font-weight: 400
+        line-height: 18.571px
+        text-transform: lowercase
+        border: 1px solid #CCC
+        transition: .3s all
+
+        &:hover
+            transition: .3s all
+            background-color: #b3c87a
+            border-color: #b3c87a
+    &__sidebar
+        .form
+            width: 255px
+        .services-slide__description
+            width: 255px
+    &__row
+        display: flex
+        gap: 30px

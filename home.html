@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="./css/index.min.css" />
+    <link
+      rel="stylesheet"
+      id="bfa-font-awesome-css"
+      href="//cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css?ver=4.7.0"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-row">
+          <a href="#" class="header-logo">
+            <img src="./img/logo.png" alt="logo" class="item-icon" />
+          </a>
+          <div class="header-items">
+            <div class="header-item">
+              <img
+                src="./img/phone-retro.svg"
+                alt="phone-retro"
+                class="item-icon"
+              />
+              <div class="item-wraper">
+                <h4 class="item-title">(833) 382-9439</h4>
+                <a href="tel:8333829439" class="item-link">
+                  Call us directly ☏
+                </a>
+              </div>
+            </div>
+            <div class="header-item header-item--border">
+              <img src="./img/email.svg" alt="phone-retro" class="item-icon" />
+              <div class="item-wraper">
+                <h4 class="item-title">Write us</h4>
+                <a href="mailto:relief@detaxify.com" class="item-link"
+                  >relief@detaxify.com</a
+                >
+              </div>
+            </div>
+            <div class="header-item">
+              <img
+                src="./img/location.svg"
+                alt="phone-retro"
+                class="item-icon"
+              />
+              <div class="item-wraper">
+                <h4 class="item-title">Serving Clients Nationwide</h4>
+                <h4 class="item-title">HQ: Houston, Texas</h4>
+              </div>
+            </div>
+          </div>
+          <button class="header-open__menu" id="open-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+      <div class="header-navbar">
+        <div class="container">
+          <nav class="nav">
+            <a href="#" class="nav-link nav-link--active">Home</a>
+            <a href="#" class="nav-link">WHY US?</a>
+            <a href="#" class="nav-link" data-id="services-list"> SERVICES </a>
+            <a href="#" class="nav-link">LEARN</a>
+            <a href="#" class="nav-link">REVIEWS</a>
+            <a href="#" class="nav-link">CONTACT US</a>
+            <a href="#" class="nav-link">SECURE CLIENT PORTAL</a>
+          </nav>
+
+          <div class="navbar-list" id="services-list">
+            <h4 class="list-title">Resolutions</h4>
+
+            <div class="navbar-row">
+              <ul class="list-ul">
+                <li class="list-li">
+                  <i class="fa fa-calculator"></i>
+                  <a href="#">Tax & Accounting</a>
+                </li>
+                <li class="list-li">
+                  <i class="fa fa-money"></i>
+                  <a href="#">IRS Penalty Abatement</a>
+                </li>
+                <li class="list-li">
+                  <i class="fa fa-money"></i>
+                  <a href="#">Passport Revocation due to Taxes Owed</a>
+                </li>
+                <li class="list-li">
+                  <i class="fa fa-bank"></i>
+                  <a href="#">Bank Levy Release</a>
+                </li>
+                <li class="list-li">
+                  <img src="./img/offers.svg" alt="" />
+                  <a href="#">Offers in Compromise</a>
+                </li>
+                <li class="list-li">
+                  <i class="fa fa-bitcoin"></i>
+                  <a href="#">Crypto Tax</a>
+                </li>
+              </ul>
+              <ul class="list-ul">
+                <li class="list-li">
+                  <i class="fa fa-newspaper-o"></i>
+                  <a href="#">Notice of Federal Tax Lien</a>
+                </li>
+                <li class="list-li">
+                  <i class="fa fa-newspaper-o"></i>
+                  <a href="#">Unfiled Delinquent Returns</a>
+                </li>
+                <li class="list-li">
+                  <i class="fa fa-try"></i>
+                  <a href="#">Payroll and Trust Fund Recovery Penalties</a>
+                </li>
+                <li class="list-li">
+                  <i class="fa fa-hand-stop-o"></i>
+                  <a href="#"> Stop Wage Garnishment</a>
+                </li>
+              </ul>
+
+              <div class="list-work">
+                <h4 class="list-title">Resolutions</h4>
+                <img
+                  src="./img/list-work.png"
+                  alt="list-work"
+                  class="list-img"
+                />
+                <p class="list-text">How we solve your tax issues</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-menu">
+        <div class="menu-item">
+          <div class="item-head">
+            <a href="#" class="head-link head-link--active">Home</a>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="item-head">
+            <a href="#" class="head-link">WHY US?</a>
+          </div>
+        </div>
+        <div class="menu-item menu-item--list">
+          <div class="item-head">
+            <a href="#" class="head-link">SERVICES</a>
+            <span class="head-icon">&#43;</span>
+          </div>
+          <div class="item-content">
+            <div class="item-list item-list--opened">
+              <div class="list-head">
+                <a href="#" class="head-link">Resolution</a>
+                <span class="head-icon">&#43;</span>
+              </div>
+              <div class="list-content">
+                <ul class="list-ul">
+                  <li class="list-li">
+                    <i class="fa fa-calculator"></i>
+                    <a href="#">Tax & Accounting</a>
+                  </li>
+                  <li class="list-li">
+                    <i class="fa fa-money"></i>
+                    <a href="#">IRS Penalty Abatement</a>
+                  </li>
+                  <li class="list-li">
+                    <i class="fa fa-money"></i>
+                    <a href="#">Passport Revocation due to Taxes Owed</a>
+                  </li>
+                  <li class="list-li">
+                    <i class="fa fa-bank"></i>
+                    <a href="#">Bank Levy Release</a>
+                  </li>
+                  <li class="list-li">
+                    <img src="./img/offers.svg" alt="" />
+                    <a href="#">Offers in Compromise</a>
+                  </li>
+                  <li class="list-li">
+                    <i class="fa fa-bitcoin"></i>
+                    <a href="#">Crypto Tax</a>
+                  </li>
+                </ul>
+                <ul class="list-ul">
+                  <li class="list-li">
+                    <i class="fa fa-newspaper-o"></i>
+                    <a href="#">Notice of Federal Tax Lien</a>
+                  </li>
+                  <li class="list-li">
+                    <i class="fa fa-newspaper-o"></i>
+                    <a href="#">Unfiled Delinquent Returns</a>
+                  </li>
+                  <li class="list-li">
+                    <i class="fa fa-try"></i>
+                    <a href="#">Payroll and Trust Fund Recovery Penalties</a>
+                  </li>
+                  <li class="list-li">
+                    <i class="fa fa-hand-stop-o"></i>
+                    <a href="#"> Stop Wage Garnishment</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="item-list item-list--opened item-list--work">
+              <div class="list-head">
+                <a href="#" class="head-link">Work Process</a>
+                <span class="head-icon">&#43;</span>
+              </div>
+              <div class="list-content">
+                <div class="list-work">
+                  <img
+                    src="./img/list-work.png"
+                    alt="list-work"
+                    class="list-img"
+                  />
+                  <p class="list-text">How we solve your tax issues</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="item-head">
+            <a href="#" class="head-link">LEARN</a>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="item-head">
+            <a href="#" class="head-link">REVIEWS</a>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="item-head">
+            <a href="#" class="head-link">CONTACT US</a>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="item-head">
+            <a href="#" class="head-link">SECURE CLIENT PORTAL</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-call">
+        Call For Tax Help At
+        <a href="tel:6468468260">(646) 846-8260</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="header-preview__slider">
+        <div class="swiper" id="header-preview__slider">
+          <div class="swiper-wrapper">
+            <div
+              class="swiper-slide"
+              style="
+                background-image: url('https://detaxify.com/wp-content/uploads/2018/02/NYC_Skyline.jpg');
+              "
+            >
+              <div class="container">
+                <h1
+                  class="slide-title"
+                  data-swiper-parallax-x="-100"
+                  data-swiper-parallax-duration="600"
+                >
+                  HAVING SERIOUS TAX PROBLEMS?
+                </h1>
+                <p
+                  class="slide-description"
+                  data-swiper-parallax-x="100"
+                  data-swiper-parallax-duration="600"
+                >
+                  We Can Help! Contact Us for a Free Consultation!
+                </p>
+                <div class="slide-row">
+                  <img
+                    src="./img/bbb-slider-icon.png"
+                    alt="bbb-slider-icon"
+                    data-swiper-parallax-x="100"
+                    data-swiper-parallax-duration="600"
+                  />
+                  <div
+                    class="slide-text"
+                    data-swiper-parallax-x="-100"
+                    data-swiper-parallax-duration="600"
+                  >
+                    <span>Rated A+ and Accredited by</span>
+                    <span>the Better Business Bureau</span>
+                  </div>
+                </div>
+                <a href="#" class="slide-btn"> Resolve Your Tax Issue </a>
+              </div>
+            </div>
+            <div
+              class="swiper-slide"
+              style="
+                background-image: url('https://detaxify.com/wp-content/uploads/2018/02/tax-formsO.jpg');
+              "
+            >
+              <div class="container">
+                <h1
+                  class="slide-title"
+                  data-swiper-parallax-x="-100"
+                  data-swiper-parallax-duration="600"
+                >
+                  Representing you Nationwide
+                </h1>
+                <p
+                  class="slide-description"
+                  data-swiper-parallax-x="100"
+                  data-swiper-parallax-duration="600"
+                >
+                  The Experience You Need for Tax Relief
+                </p>
+                <div class="slide-row">
+                  <img
+                    src="./img/bbb-slider-icon.png"
+                    alt="bbb-slider-icon"
+                    data-swiper-parallax-x="100"
+                    data-swiper-parallax-duration="600"
+                  />
+                  <div
+                    class="slide-text"
+                    data-swiper-parallax-x="-100"
+                    data-swiper-parallax-duration="600"
+                  >
+                    <span>Rated A+ and Accredited by</span>
+                    <span>the Better Business Bureau</span>
+                  </div>
+                </div>
+                <a href="#" class="slide-btn">Resolve Your Tax Issue</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next header-preview-next">
+            <i class="fa fa-chevron-right"></i>
+          </div>
+          <div class="swiper-button-prev header-preview-prev">
+            <i class="fa fa-chevron-left"></i>
+          </div>
+        </div>
+      </section>
+
+      <section class="featured">
+        <div class="container">
+          <h1 class="title">As featured in:</h1>
+
+          <div class="featured-items">
+            <div class="featured-item">
+              <img src="./img/cbs-news.png" alt="cbs-news" />
+            </div>
+            <div class="featured-item">
+              <img src="./img/fox.png" alt="fox" />
+            </div>
+            <div class="featured-item">
+              <img src="./img/new-york-post.png" alt="new-york-post" />
+            </div>
+          </div>
+          <div class="featured-items">
+            <div class="featured-item">
+              <img src="./img/abc.png" alt="abc" />
+            </div>
+            <div class="featured-item">
+              <img src="./img/news.png" alt="news" />
+            </div>
+            <div class="featured-item">
+              <img src="./img/nbc.png" alt="nbc" />
+            </div>
+          </div>
+
+          <div class="swiper featured-slider" id="featured-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="featured-slide">
+                  <img src="./img/cbs-news.png" alt="cbs-news" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="featured-slide">
+                  <img src="./img/fox.png" alt="fox" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="featured-slide">
+                  <img src="./img/new-york-post.png" alt="new-york-post" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="featured-slide">
+                  <img src="./img/abc.png" alt="abc" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="featured-slide">
+                  <img src="./img/news.png" alt="news" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="featured-slide">
+                  <img src="./img/nbc.png" alt="nbc" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="company">
+        <div class="container">
+          <h1 class="title">the premier tax resolution company</h1>
+
+          <div class="company-items">
+            <div class="company-item">
+              <i class="fa fa-newspaper-o item-icon"></i>
+              <h5 class="item-title">IRS Tax Liens</h5>
+              <p class="item-description">
+                The IRS can complicate your life by filing federal tax liens.
+                Eliminate tax liens and prevent assets seizures. Call us today
+                if you are receiving notices of state or federal lien. We get in
+                touch with the IRS immediately to seek options in lien removal.
+              </p>
+            </div>
+            <div class="company-item company-item--border">
+              <img src="./img/build.svg" alt="build" class="item-icon" />
+              <h5 class="item-title">IRS Tax Levy</h5>
+              <p class="item-description">
+                Has the IRS filed a levy on your bank account due to your tax
+                debt? A bank levy can seriously jeopardize your ability to pay
+                bills and handle other financial obligations. We can settle your
+                issue with the IRS and prevent or stop a bank levy.
+              </p>
+            </div>
+            <div class="company-item">
+              <i class="fa fa-money item-icon"></i>
+              <h5 class="item-title">IRS Tax Penalties</h5>
+              <p class="item-description">
+                The IRS abates and removes millions of dollars in penalties each
+                year. Let licensed professionals negotiate your interest and
+                penalties with the IRS. We will help you to minimize your tax
+                debt and penalties on it. You have important rights – know your
+                rights and let us negotiate.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="relief">
+        <div class="container">
+          <h1 class="title">a trusted name in tax relief</h1>
+          <p class="relief-description">
+            Let us represent you in front of the IRS and solve your tax
+            problems. We have licensed professionals ready to represent you; we
+            offer a money back guarantee**, and provide a secure and trusted
+            platform for you. Contact us today to get an immediate solution for
+            your tax debt problems.
+          </p>
+
+          <div class="relief-items">
+            <div class="relief-item">
+              <div class="item-img">
+                <img src="./img/licensed.png" alt="licensed" />
+              </div>
+              <h6 class="item-title">Licensed Professionals</h6>
+              <p class="item-text">
+                Our Certified Public Accountants are licensed by a State Board
+                of Public Accountancy can represent you before the IRS. We have
+                a focus on tax resolution while also understanding tax and
+                accounting to optimize your taxes and prevent tax issues.
+              </p>
+            </div>
+            <div class="relief-item">
+              <div class="item-img">
+                <img src="./img/moneyback.png" alt="moneyback" />
+              </div>
+              <h6 class="item-title">Money Back Guarantee**</h6>
+              <p class="item-text">
+                For tax issues, Detaxify will refund monies paid under the
+                Detaxify Client Agreement within the first 14 calendar days
+                without any penalty or obligation. Have peace of mind that we
+                stand behind our service and your satisfaction is guaranteed.
+              </p>
+            </div>
+            <div class="relief-item">
+              <div class="item-img">
+                <img src="./img/bbb-icon.png" alt="bbb-icon" />
+              </div>
+              <h6 class="item-title">A+ Accreditation / Secure & Trusted</h6>
+              <p class="item-text">
+                Detaxify is accredited with an A+ from the Better Business
+                Bureau. In addition, we provide a safe and secure site which you
+                can trust. Our website is encrypted in addition to our
+                fully-secure client portal. We take your privacy seriously. We
+                do not sell or share your information with third parties.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="work">
+        <div class="container">
+          <h1 class="title">How We Work</h1>
+
+          <div class="work-items">
+            <div class="work-item">
+              <img src="./img/work-icon-1.png" alt="icon" class="item-icon" />
+              <h5 class="item-title">Consultation</h5>
+              <p class="item-text">100% Free</p>
+            </div>
+            <div class="work-item">
+              <img src="./img/work-icon-2.png" alt="icon" class="item-icon" />
+              <h5 class="item-title">Investigation</h5>
+              <p class="item-text">
+                Submit power of attorney, initiate client protection. Order
+                master tax file. Establish communication with the IRS
+              </p>
+            </div>
+            <div class="work-item">
+              <img src="./img/work-icon-3.png" alt="icon" class="item-icon" />
+              <h5 class="item-title">Mediation</h5>
+              <p class="item-text">
+                Negotiate your liability with the IRS. Prepare a final
+                resolution. We will speak on your behalf with the IRS as your
+                representative.
+              </p>
+            </div>
+            <div class="work-item">
+              <img src="./img/work-icon-4.png" alt="icon" class="item-icon" />
+              <h5 class="item-title">Resolution</h5>
+              <p class="item-text">
+                Your tax matter is resolved and efficiently mediated!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="resolved">
+        <div class="container">
+          <i class="resolved-icon fa fa-money"></i>
+          <p class="resolved-text">More than</p>
+          <p class="resolved-counter">
+            <i class="fa fa-usd"></i>
+            <span data-counter="2115980" data-counter-end="2,115,980.98">
+            </span>
+          </p>
+          <h3 class="resolved-title">IN CLIENT TAX DEBT RESOLVED</h3>
+        </div>
+      </section>
+
+      <section class="testimonials">
+        <div class="container">
+          <h1 class="title">testimonials</h1>
+          <img src="./img/stars.png" alt="stars" class="testimonials-stars" />
+
+          <div class="swiper" id="testimonials-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <p class="testimonials-text">
+                  I was in dire straits with the IRS. My business owed over $35k
+                  in taxes and more in penalties. One could say my business
+                  existence was “toxic.” I was looking for help one night, I saw
+                  this ad to “Detaxify” my situation. I thought the phrase was
+                  super catchy and did some preliminary background research on
+                  John and his company. I reached out that night, and he
+                  personally called me back… THAT NIGHT. We had a plan of action
+                  in a matter of days! Picking up the phone to call John was the
+                  best business decision I’ve made in years. He not only helped
+                  me resolve my issues (saving me and my company THOUSANDS),
+                  he’s got me (and my company) compliant and on the path to
+                  making my company healthy and stable. No matter the issue,
+                  Detaxify has the solution!
+                </p>
+                <img
+                  src="./img/right-quote.png"
+                  alt="right-quote"
+                  class="testimonials-icon"
+                />
+                <h6 class="testimonials-name">Chad M.</h6>
+                <p class="testimonials-position">
+                  Film Producer, New York City
+                </p>
+              </div>
+              <div class="swiper-slide">
+                <p class="testimonials-text">
+                  I owed the IRS roughly $50k due to unfiled payroll tax
+                  returns. Our previous bookkeeper did not follow up with 940s
+                  and 941s which we had to file for our business and I had not
+                  properly managed the deposits with the IRS. The situation
+                  spiraled out of control as I had penalties and interest
+                  assessed on top of my liability; the IRS was threatening to
+                  close down the business. Detaxify really saved the day by
+                  getting my penalties abated and representing me before the IRS
+                  – the resolution was found where I kept my business and I
+                  saved thousands.
+                </p>
+                <img
+                  src="./img/right-quote.png"
+                  alt="right-quote"
+                  class="testimonials-icon"
+                />
+                <h6 class="testimonials-name">Sam E.</h6>
+                <p class="testimonials-position">Event Producer, St. Louis</p>
+              </div>
+              <div class="swiper-slide">
+                <p class="testimonials-text">
+                  A very good friend of mine recommended John to me. I am quite
+                  glad my friend did. When I spoke to John, he was friendly,
+                  professional, and, most of all, nonjudgmental. His simple
+                  response to me was “people go through stuff.”<br />
+                  <br />
+                  The New York State tax people are vicious and rude. The thing
+                  I Ioved about John was that he knew when to be nice, and he
+                  knew when to push back hard. Quite simply, he’s fearless.
+                  That’s exactly what you need when dealing with them.
+                </p>
+                <img
+                  src="./img/right-quote.png"
+                  alt="right-quote"
+                  class="testimonials-icon"
+                />
+                <h6 class="testimonials-name">Richard P.</h6>
+                <p class="testimonials-position">Attorney, New York City</p>
+              </div>
+            </div>
+            <div
+              class="swiper-button-next testimonials-arrow-next testimonials-arrow"
+            >
+              <i class="fa fa-chevron-right"></i>
+            </div>
+            <div
+              class="swiper-button-prev testimonials-arrow-prev testimonials-arrow"
+            >
+              <i class="fa fa-chevron-left"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="resolution">
+        <div class="container">
+          <h2 class="resolution-title">
+            <span>
+              We look forward to providing you the best tax debt resolution
+            </span>
+            <span class="title-color"> anywhere in the United States.</span>
+          </h2>
+          <a href="#" class="btn">
+            Get a Resolution <i class="fa fa-chevron-right"></i>
+          </a>
+        </div>
+      </section>
+
+      <section class="faq">
+        <div class="container">
+          <h1 class="title">faq</h1>
+
+          <div class="faq-accordion faq-accordion--active">
+            <div class="accordion-title">
+              <span>How do we get started?</span>
+              <i class="fa fa-chevron-down"></i>
+            </div>
+            <div class="accordion-content">
+              <a href="#">Click here</a> or call 833-382-9439 to speak to a tax
+              professional today. We will outline the specifics of your case and
+              we are happy to give you a free consultation. If you have received
+              any correspondence from the IRS, be sure to mention this to the
+              associate so that we can intervene with immediate action. You can
+              also just fill out a form and request that we call you back, a tax
+              professional will get back to you as soon as possible. Don’t delay
+              – relief is simply a phone call or a click away.
+            </div>
+          </div>
+          <div class="faq-accordion">
+            <div class="accordion-title">
+              <span>What is your work process?</span>
+              <i class="fa fa-chevron-down"></i>
+            </div>
+            <div class="accordion-content">
+              For most cases involving a tax liability, we begin representation
+              by having you sign and remit to us several IRS forms. The main
+              form is a Form 2848 which allows us to speak directly to the IRS
+              on your behalf so that we can request a hold against collection
+              action and negotiate directly with your assigned revenue officer.
+              We then send you a financial questionnaire which must be filled in
+              and sent back to us. At that point, there will be some back and
+              forth between you and our firm as we work to prepare your
+              resolution matter and/or negotiate directly with an assigned
+              revenue officer. Depending on the resolution matter, cases will
+              vary moving forward, but these are the basic steps to getting
+              represented.
+            </div>
+          </div>
+          <div class="faq-accordion">
+            <div class="accordion-title">
+              <span>Who qualifies for a tax relief program?</span>
+              <i class="fa fa-chevron-down"></i>
+            </div>
+            <div class="accordion-content">
+              If you have a tax debt, and the IRS or state collection agencies
+              are in the process of collecting, both individuals and businesses
+              can qualify for certain tax relief measures. These could be a
+              reprieve against collections wherein all notices and threats of
+              asset seizure are suspended, an agreement to waive accrued
+              penalties on the initial tax liability, or in certain cases a
+              suspension of collection altogether and a mediation of the tax
+              liability. As qualifications for these measures vary from case to
+              case, understanding your options and getting current with an
+              accurate road-map are important considerations our associates will
+              sit with you and go over in depth.
+            </div>
+          </div>
+          <div class="faq-accordion">
+            <div class="accordion-title">
+              <span>What if I have years of un-filed tax returns?</span>
+              <i class="fa fa-chevron-down"></i>
+            </div>
+            <div class="accordion-content">
+              Many taxpayers will accumulate tax debt at an alarming rate when
+              their returns are not filed because the IRS submits the return for
+              them on their behalf, commonly referred to as an SFR (Substitute
+              for Return). This is the worst form of taxation as it allows for
+              zero deductions and maximizes the IRS’s revenue. We assist many
+              clients who haven’t filed their tax returns in years, and in many
+              cases, we can reduce the liability that has accrued, bring the
+              taxpayer legally current, and maintain their returns with our
+              year-over-year tax planning and preparation service.
+            </div>
+          </div>
+          <div class="faq-accordion">
+            <div class="accordion-title">
+              <span>Can the IRS continue collecting once I'm represented?</span>
+              <i class="fa fa-chevron-down"></i>
+            </div>
+            <div class="accordion-content">
+              For the most part, we are generally able to stop most forms of
+              collections against our clients quickly. When you decide to take
+              advantage of our services, we will assume tax power of attorney
+              which allows us to do several very important things for you.
+              First, it gives us authority to speak to the IRS on your behalf,
+              letting us contact the IRS and request either a 30, 60, or 90 day
+              hold on collections, and when appropriate, we can even place an
+              account into what’s called CNC – Currently Non Collectible,
+              wherein the IRS will cease collection action indefinitely. The
+              second thing the 2848 allows us to do is get your mail and
+              notices, which keeps us current with your case and directs
+              correspondence through our office instead of your mailbox. From
+              here, we will work with you to tailor a program or relief option
+              best suited to your needs.
+            </div>
+          </div>
+          <div class="faq-accordion">
+            <div class="accordion-title">
+              <span>How much is the whole process going to cost me?</span>
+              <i class="fa fa-chevron-down"></i>
+            </div>
+            <div class="accordion-content">
+              Prices will vary considerably depending on the scope of work
+              needed to be done and complexity to your general liability issue.
+              In many cases, the work on your case spans over a couple of months
+              – however, we charge flat fees even if your case takes longer than
+              usual. We find that it benefits the consumer to pay a fair fee for
+              a fair service. There are simply no cutting corners. In many cases
+              we offer interest free financing of our fee, allowing you to make
+              payments over time. A general range for our services is as
+              follows: simple tax returns can cost a few hundred dollars each,
+              simple tax resolution cases can be between fifteen hundred and
+              twenty five hundred each, and more complex cases can cost in the
+              thousands. As fees vary based on work, such as returns needing to
+              be filed and garnishments needing to be lifted, please contact one
+              of our tax associates for a free evaluation of your options and to
+              better price your tax issues.
+            </div>
+          </div>
+          <div class="faq-accordion">
+            <div class="accordion-title">
+              <span>How soon can we start the process?</span>
+              <i class="fa fa-chevron-down"></i>
+            </div>
+            <div class="accordion-content">
+              Upon being retained, we guarantee same-day contact with the IRS,
+              if it is a IRS business day; and immediate contact first thing in
+              the morning PACIFIC STANDARD TIME if the IRS is closed. When
+              possible, we will immediately move to stop collections and work to
+              find a resolution with the IRS.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="touch">
+        <div class="container">
+          <h1 class="title">get in touch</h1>
+          <div class="touch-row">
+            <div class="touch-content">
+              <a href="#" class="btn">About Us</a>
+            </div>
+            <div class="touch-content">
+              <p class="touch-title">Call Us for a Free Consultation:</p>
+              <p class="touch-calls">833 382 9439</p>
+            </div>
+            <div class="touch-content">
+              <a href="#" class="btn">
+                Get Relief Now
+                <i class="fa fa-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="states">
+        <div class="container">
+          <h1 class="title">
+            Representing Clients Nationwide in all 50 states
+          </h1>
+        </div>
+        <div class="states-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1271.690557289662!2d-74.00726116240375!3d40.70465404262731!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf0b31ab93bb34b24!2sDetaxify%20-%20Tax%20Relief!5e0!3m2!1sen!2sus!4v1660600526923!5m2!1sen!2sus"
+            height="450"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-items">
+          <div class="footer-item">
+            <div class="item-logo">
+              <a href="#">
+                <img src="./img/logo-footer.png" alt="logo footer" />
+              </a>
+            </div>
+            <p class="item-text">
+              We have helped many individuals and businesses in obtaining tax
+              relief. We can help you negotiate and settle your tax problems
+              with the IRS or state tax authority. Our specialization in
+              representing taxpayers is the experience you need in handling
+              matters before the IRS or state tax authority.
+            </p>
+          </div>
+          <div class="footer-item">
+            <h2 class="item-title">recent posts</h2>
+            <div class="item-wrap">
+              <a href="#" class="item-title__link">
+                Understanding IRS CP504 Notices: What You Need to Know
+              </a>
+              <p class="item-time">
+                <img src="./img/clock.svg" alt="clock" />
+                August 27, 2023
+              </p>
+            </div>
+            <div>
+              <a href="#" class="item-title__link">
+                A Comprehensive Guide on IRS Revenue Officers: When and How to
+                Work with Them
+              </a>
+              <p class="item-time">
+                <img src="./img/clock.svg" alt="clock" />
+                August 26, 2023
+              </p>
+            </div>
+          </div>
+          <div class="footer-item footer-item--links">
+            <h2 class="item-title">extra links</h2>
+            <a href="#" class="item-link">About Us</a>
+            <a href="#" class="item-link">Services</a>
+            <a href="#" class="item-link">Reviews</a>
+            <a href="#" class="item-link">Posts</a>
+            <a href="#" class="item-link">Contact Us</a>
+            <a href="#" class="item-link">Privacy Policy</a>
+          </div>
+
+          <div class="footer-item">
+            <h2 class="item-title">disclaimer</h2>
+            <p class="item-text">
+              **Detaxify Inc will refund monies paid under the Client Agreement
+              within the first 14 calendar days
+              <span class="text-bold">without any penalty or obligation</span>.
+              This money-back guarantee ONLY applies to the fee paid towards the
+              Investigation Phase/Transcript Analysis and NOT for those enrolled
+              with our Immediate Action Team or those that have executed a
+              Resolution Phase Addendum.
+            </p>
+          </div>
+        </div>
+        <div class="footer-socials">
+          <p class="social-copy">
+            © 2023 DETAXIFY INC. All rights reserved. This firm is not a CPA
+            firm.
+          </p>
+          <div class="social-links">
+            <a href="" class="social-links__link">
+              <i class="fa fa-facebook"></i>
+            </a>
+            <a href="" class="social-links__link">
+              <i class="fa fa-twitter"></i>
+            </a>
+            <a href="" class="social-links__link">
+              <i class="fa fa-instagram"></i>
+            </a>
+            <a href="" class="social-links__link">
+              <i class="fa fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="./js/app.js"></script>
+  </body>
+</html>

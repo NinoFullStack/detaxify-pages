@@ -1,0 +1,24 @@
+@media (max-width: 1180px)
+    .footer
+        &-items
+            justify-content: space-between
+        &-item
+            &:not(:last-child) 
+                margin-right: 15px
+            &--links
+                width: 15%
+
+@media (max-width: 820px)
+    .footer
+        &-items
+            flex-wrap: wrap
+        &-item
+            &:not(:last-child)
+                margin-right: 10px
+            width: 45%
+
+@media (max-width: 500px)
+    .footer-item
+        &:not(:last-child)
+            margin-right: 0
+        width: 100%

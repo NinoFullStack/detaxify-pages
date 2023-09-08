@@ -1,0 +1,93 @@
+.header-preview
+    &__slider
+        min-height: 570px
+        width: 100%
+        .swiper-slide
+            height: 570px
+            background-position: center
+            background-size: cover
+            background-repeat: no-repeat
+            position: relative
+            &::before
+                content: ''
+                width: 100%
+                height: 100%
+                position: absolute
+                top: 0
+                left: 0
+                background: rgba(32, 46, 36, 0.75)
+                z-index: -1
+            .slide
+                &-title
+                    color: #FFF
+                    text-align: center
+                    font-size: 36px
+                    font-weight: 700
+                    line-height: 42px
+                    letter-spacing: -2px
+                    margin-top: 65px
+                    margin-bottom: 9px
+                    text-transform: uppercase
+                &-description
+                    color: #FFF
+                    font-family: 'Open Sans'
+                    font-size: 24px
+                    font-weight: 400
+                    line-height: 22px
+                    text-align: center
+                    margin-bottom: 62px
+                &-row
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    img
+                        margin-right: 32px
+                &-btn
+                    margin: 56px auto 0
+                    padding: 20px 39px
+                    border-radius: 3px
+                    background-color: #B91820
+                    color: #FFF
+                    font-family: Roboto
+                    font-size: 16px
+                    font-style: normal
+                    font-weight: 400
+                    line-height: 14px
+                    display: block
+                    width: max-content
+                    transition: .2s all
+                    &:hover
+                        color: #000
+                        background-color: #fff
+                        transition: .2s all
+                &-text
+                    display: flex
+                    flex-direction: column
+                    color: #FFF
+                    font-family: 'Open Sans'
+                    font-size: 20px
+                    font-weight: 400
+                    line-height: 22px
+
+    &-next 
+        right: 60px !important
+    &-prev 
+        left: 60px !important
+
+    &-next,
+    &-prev
+        width: 45px !important
+        height: 45px !important
+        border: 3px solid #BAC1C6
+        transition: .2s all
+        i
+            font-size: 19px
+            color: #bac1c6
+            transition: .2s all
+        &:hover
+            background-color: #347a2a
+            border-color: #347a2a
+            transition: .2s all
+            i
+                color: #fff
+                transition: .2s all

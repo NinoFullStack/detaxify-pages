@@ -1,0 +1,72 @@
+@media (max-width: 1250px)
+    .resolution-head .head-field
+        width: 70%
+
+@media (max-width: 1060px)
+    .resolution-head .head-field
+        width: 80%
+
+
+@media (max-width: 950px)
+    .resolution-head .head-field
+        width: 90%
+
+@media (max-width: 825px)
+    .resolution-head .head
+        &-title
+            font-size: 50px
+            margin-bottom: 15px
+        &-prices
+            margin-bottom: 50px
+            flex-direction: column
+            .prices-price
+                width: 100%
+        &-text
+            font-size: 20px
+        &-field
+            width: 100%
+        &-select
+            width: 100%
+
+@media (max-width: 768px)
+    .resolution-head .head
+        &-row
+            margin-bottom: 40px
+            &--mobile
+                margin-bottom: 0
+        &-field
+            flex-direction: column
+        &-label
+            text-align: left
+            margin-bottom: 5px
+            label
+                font-size: 18px
+        &-input
+            width: 100%
+        &-title
+            font-size: 40px
+            margin-bottom: 5px
+            &--size
+                margin-bottom: 20px
+        &-note
+            margin-bottom: 30px
+        &-row
+            justify-content: center
+        &-phone
+            display: none
+            &--mobile
+                display: flex
+
+@media (max-width: 500px)
+    .resolution-head .head
+        &-title
+            font-size: 35px
+        &-text
+            font-size: 17px
+        &-prices .prices-price
+            font-size: 18px
+
+@media (max-width: 440px)
+    .resolution-head .head-row--mobile
+        flex-direction: column
+        align-items: center

@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn</title>
+    <link rel="stylesheet" type="text/css" href="./css/index.min.css" />
+    <link
+      rel="stylesheet"
+      id="bfa-font-awesome-css"
+      href="//cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css?ver=4.7.0"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-row">
+          <a href="#" class="header-logo">
+            <img src="./img/logo.png" alt="logo" class="item-icon" />
+          </a>
+          <div class="header-items">
+            <div class="header-item">
+              <img
+                src="./img/phone-retro.svg"
+                alt="phone-retro"
+                class="item-icon"
+              />
+              <div class="item-wraper">
+                <h4 class="item-title">(833) 382-9439</h4>
+                <a href="tel:8333829439" class="item-link">
+                  Call us directly ☏
+                </a>
+              </div>
+            </div>
+            <div class="header-item header-item--border">
+              <img src="./img/email.svg" alt="phone-retro" class="item-icon" />
+              <div class="item-wraper">
+                <h4 class="item-title">Write us</h4>
+                <a href="mailto:relief@detaxify.com" class="item-link"
+                  >relief@detaxify.com</a
+                >
+              </div>
+            </div>
+            <div class="header-item">
+              <img
+                src="./img/location.svg"
+                alt="phone-retro"
+                class="item-icon"
+              />
+              <div class="item-wraper">
+                <h4 class="item-title">Serving Clients Nationwide</h4>
+                <h4 class="item-title">HQ: Houston, Texas</h4>
+              </div>
+            </div>
+          </div>
+          <button class="header-open__menu" id="open-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+      <div class="header-navbar">
+        <div class="container">
+          <nav class="nav">
+            <a href="#" class="nav-link nav-link--active">Home</a>
+            <a href="#" class="nav-link">WHY US?</a>
+            <a href="#" class="nav-link" data-id="services-list"> SERVICES </a>
+            <a href="#" class="nav-link">LEARN</a>
+            <a href="#" class="nav-link">REVIEWS</a>
+            <a href="#" class="nav-link">CONTACT US</a>
+            <a href="#" class="nav-link">SECURE CLIENT PORTAL</a>
+          </nav>
+
+          <div class="navbar-list" id="services-list">
+            <h4 class="list-title">Resolutions</h4>
+
+            <div class="navbar-row">
+              <ul class="list-ul">
+                <li class="list-li">
+                  <i class="fa fa-calculator"></i>
+                  <a href="#">Tax & Accounting</a>
+                </li>
+                <li class="list-li">
+                  <i class="fa fa-money"></i>
+                  <a href="#">IRS Penalty Abatement</a>
+                </li>
+                <li class="list-li">
+                  <i class="fa fa-money"></i>
+                  <a href="#">Passport Revocation due to Taxes Owed</a>
+                </li>
+                <li class="list-li">
+                  <i class="fa fa-bank"></i>
+                  <a href="#">Bank Levy Release</a>
+                </li>
+                <li class="list-li">
+                  <img src="./img/offers.svg" alt="" />
+                  <a href="#">Offers in Compromise</a>
+                </li>
+                <li class="list-li">
+                  <i class="fa fa-bitcoin"></i>
+                  <a href="#">Crypto Tax</a>
+                </li>
+              </ul>
+              <ul class="list-ul">
+                <li class="list-li">
+                  <i class="fa fa-newspaper-o"></i>
+                  <a href="#">Notice of Federal Tax Lien</a>
+                </li>
+                <li class="list-li">
+                  <i class="fa fa-newspaper-o"></i>
+                  <a href="#">Unfiled Delinquent Returns</a>
+                </li>
+                <li class="list-li">
+                  <i class="fa fa-try"></i>
+                  <a href="#">Payroll and Trust Fund Recovery Penalties</a>
+                </li>
+                <li class="list-li">
+                  <i class="fa fa-hand-stop-o"></i>
+                  <a href="#"> Stop Wage Garnishment</a>
+                </li>
+              </ul>
+
+              <div class="list-work">
+                <h4 class="list-title">Resolutions</h4>
+                <img
+                  src="./img/list-work.png"
+                  alt="list-work"
+                  class="list-img"
+                />
+                <p class="list-text">How we solve your tax issues</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-menu">
+        <div class="menu-item">
+          <div class="item-head">
+            <a href="#" class="head-link head-link--active">Home</a>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="item-head">
+            <a href="#" class="head-link">WHY US?</a>
+          </div>
+        </div>
+        <div class="menu-item menu-item--list">
+          <div class="item-head">
+            <a href="#" class="head-link">SERVICES</a>
+            <span class="head-icon">&#43;</span>
+          </div>
+          <div class="item-content">
+            <div class="item-list item-list--opened">
+              <div class="list-head">
+                <a href="#" class="head-link">Resolution</a>
+                <span class="head-icon">&#43;</span>
+              </div>
+              <div class="list-content">
+                <ul class="list-ul">
+                  <li class="list-li">
+                    <i class="fa fa-calculator"></i>
+                    <a href="#">Tax & Accounting</a>
+                  </li>
+                  <li class="list-li">
+                    <i class="fa fa-money"></i>
+                    <a href="#">IRS Penalty Abatement</a>
+                  </li>
+                  <li class="list-li">
+                    <i class="fa fa-money"></i>
+                    <a href="#">Passport Revocation due to Taxes Owed</a>
+                  </li>
+                  <li class="list-li">
+                    <i class="fa fa-bank"></i>
+                    <a href="#">Bank Levy Release</a>
+                  </li>
+                  <li class="list-li">
+                    <img src="./img/offers.svg" alt="" />
+                    <a href="#">Offers in Compromise</a>
+                  </li>
+                  <li class="list-li">
+                    <i class="fa fa-bitcoin"></i>
+                    <a href="#">Crypto Tax</a>
+                  </li>
+                </ul>
+                <ul class="list-ul">
+                  <li class="list-li">
+                    <i class="fa fa-newspaper-o"></i>
+                    <a href="#">Notice of Federal Tax Lien</a>
+                  </li>
+                  <li class="list-li">
+                    <i class="fa fa-newspaper-o"></i>
+                    <a href="#">Unfiled Delinquent Returns</a>
+                  </li>
+                  <li class="list-li">
+                    <i class="fa fa-try"></i>
+                    <a href="#">Payroll and Trust Fund Recovery Penalties</a>
+                  </li>
+                  <li class="list-li">
+                    <i class="fa fa-hand-stop-o"></i>
+                    <a href="#"> Stop Wage Garnishment</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="item-list item-list--opened item-list--work">
+              <div class="list-head">
+                <a href="#" class="head-link">Work Process</a>
+                <span class="head-icon">&#43;</span>
+              </div>
+              <div class="list-content">
+                <div class="list-work">
+                  <img
+                    src="./img/list-work.png"
+                    alt="list-work"
+                    class="list-img"
+                  />
+                  <p class="list-text">How we solve your tax issues</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="item-head">
+            <a href="#" class="head-link">LEARN</a>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="item-head">
+            <a href="#" class="head-link">REVIEWS</a>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="item-head">
+            <a href="#" class="head-link">CONTACT US</a>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="item-head">
+            <a href="#" class="head-link">SECURE CLIENT PORTAL</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-call">
+        Call For Tax Help At
+        <a href="tel:6468468260">(646) 846-8260</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="learn-detail">
+        <div class="container">
+          <div class="breadcrumbs">
+            <a href="#" class="breadcrumbs-link">Home</a>
+            <i class="fa fa-angle-right breadcrumbs-icon"></i>
+            <a href="#" class="breadcrumbs-link">Learn</a>
+            <i class="fa fa-angle-right breadcrumbs-icon"></i>
+            <a href="#" class="breadcrumbs-link">
+              Navigating IRS Passport Revocation: Your Rights and Options
+            </a>
+          </div>
+
+          <h1 class="learn-detail__title">
+            Navigating IRS Passport Revocation: Your Rights and Options
+          </h1>
+
+          <div class="learn-detail__row">
+            <div class="learn-detail__content">
+              <p class="learn-detail__time">
+                <i class="fa fa-clock-o"></i>
+                August 17, 2023
+              </p>
+
+              <img
+                src="./img/learn-passport.jpg"
+                alt="learn-passport"
+                class="learn-detail__img"
+              />
+
+              <div class="learn-detail__description">
+                <p class="description-text">
+                  <span class="description-bold">Introduction:</span> The
+                  concept of
+                  <a href="#" class="description-link">
+                    IRS passport revocation
+                  </a>
+                  has been making waves lately, sparking concerns for those with
+                  tax- related issues. Having your passport revoked due to tax
+                  debts can be a distressing ordeal, impacting your ability to
+                  travel internationally. This article aims to provide a
+                  comprehensive understanding of IRS passport revocation,
+                  delving into its reasons, implications, and the rights
+                  taxpayers have when facing this situation. Collection Due
+                  Process Rights:
+                </p>
+                <p class="description-text">
+                  <span class="description-bold">
+                    Understanding IRS Passport Revocation:
+                  </span>
+                  IRS passport revocation is a legal measure taken by the
+                  Internal Revenue Service to restrict an individual’s
+                  international travel rights. This action is invoked under the
+                  Fixing America’s Surface Transportation (FAST) Act, allowing
+                  the IRS to collaborate with the State Department. They can
+                  deny, revoke, or limit passport issuance or renewal for
+                  individuals with “seriously delinquent tax debt.” debt. This
+                  isn’t a step taken abruptly; it comes after consistent
+                  attempts by the IRS to communicate with the taxpayer. When
+                  taxpayers ignore IRS letters and notices about their tax
+                  debts, passport revocation becomes a last resort.
+                </p>
+                <p class="description-text">
+                  <span class="description-bold">
+                    Criteria and Collection Due Process Rights:
+                  </span>
+                  IRS passport revocation doesn’t happen overnight. To reach
+                  this point, taxpayers must have more than just a minor tax
+                  obligation. The debt must be considered “seriously
+                  delinquent,” meaning it exceeds a certain threshold (adjusted
+                  for inflation) which currently stands at $54,000.
+                </p>
+                <p class="description-text">
+                  <span class="description-bold">
+                    Collection Due Process Rights:
+                  </span>
+                  Taxpayers have rights in this process, specifically Collection
+                  Due Process (CDP) rights. These rights ensure that taxpayers
+                  receive proper notice and an opportunity to challenge the
+                  proposed collection action, including passport revocation.
+                  Taxpayers have the right to request a CDP hearing within 30
+                  days of receiving notice of the intent to revoke their
+                  passport. This hearing offers an avenue for taxpayers to
+                  present their case, discuss repayment options, and potentially
+                  halt the revocation.
+                </p>
+                <p class="description-text">
+                  <span class="description-bold">
+                    Collection Due Process Rights:
+                  </span>
+                  Taxpayers have rights in this process, specifically Collection
+                  Due Process (CDP) rights. These rights ensure that taxpayers
+                  receive proper notice and an opportunity to challenge the
+                  proposed collection action, including passport revocation.
+                  Taxpayers have the right to request a CDP hearing within 30
+                  days of receiving notice of the intent to revoke their
+                  passport. This hearing offers an avenue for taxpayers to
+                  present their case, discuss repayment options, and potentially
+                  halt the revocation. Reasons Behind IRS Passport Revocation:
+                  The primary reason for passport revocation is the accumulation
+                  of substantial tax debt. This isn’t a step taken abruptly; it
+                  comes after consistent attempts by the IRS to communicate with
+                  the taxpayer. When taxpayers ignore IRS letters and notices
+                  about their tax debts, passport revocation becomes a last
+                  resort.
+                </p>
+                <p class="description-text">
+                  <span class="description-bold">
+                    Navigating IRS Passport Revocation:
+                  </span>
+                  If you’re facing the possibility of IRS passport revocation,
+                  take these steps:
+                </p>
+                <p class="description-text description-text--color">
+                  <span class="description-bold">Assessment:</span>
+                  Evaluate the accuracy of your tax debt. Ensure that the amount
+                  claimed by the IRS is correct and addresses any errors.
+                </p>
+                <p class="description-text description-text--color">
+                  <span class="description-bold"> Payment Options: </span>
+                  Explore the available payment options to settle your tax debt.
+                  These include installment agreements, offers in compromise,
+                  and other potential arrangements.
+                </p>
+                <p class="description-text description-text--color">
+                  <span class="description-bold">CDP Hearing:</span>
+                  If eligible, request a Collection Due Process hearing within
+                  30 days of receiving the intent-to-revoke notice. This hearing
+                  provides a platform to discuss repayment options and
+                  potentially halt the revocation.
+                </p>
+                <p class="description-text description-text--color">
+                  <span class="description-bold">Professional Help:</span> Seek
+                  assistance from tax professionals, such as enrolled agents or
+                  tax lawyers, who specialize in dealing with the IRS. Their
+                  expertise can help you navigate the intricacies of the
+                  process.
+                </p>
+                <p class="description-text description-text--conclusion">
+                  <span class="description-bold">Conclusion:</span>
+                  IRS passport revocation is a significant step taken by the IRS
+                  to recover seriously delinquent tax debts. Taxpayers have
+                  rights, including Collection Due Process rights, which allow
+                  them to challenge the proposed action. If facing the
+                  possibility of passport revocation, it’s crucial to address
+                  your tax debt promptly, explore payment options, and consider
+                  seeking professional guidance. By understanding your rights
+                  and taking proactive steps, you can work towards resolving
+                  your tax obligations and ensuring your ability to travel
+                  internationally remains intact.
+                </p>
+              </div>
+
+              <div class="learn-detail__helpers">
+                <a href="#" class="learn-detail__helper">IRS passport help</a>
+                <a href="#" class="learn-detail__helper">
+                  irs passport revocation
+                </a>
+                <a href="#" class="learn-detail__helper">
+                  irs passport revoked
+                </a>
+                <a href="#" class="learn-detail__helper">IRS tax relief</a>
+              </div>
+            </div>
+            <div class="learn-detail__sidebar">
+              <form class="form">
+                <h3 class="form-title">
+                  7 Secrets the IRS Doesn't Want You to Know
+                </h3>
+                <p class="form-text">
+                  Interested in our free e-book about the “7 Secrets the IRS
+                  Doesn’t Want You to Know”?.
+                </p>
+                <p class="form-text">
+                  Enter your e-mail below and we’ll send it to you right away
+                  for FREE.
+                </p>
+                <input
+                  type="email"
+                  placeholder="Enter Your E-mail"
+                  class="form-input"
+                />
+                <button type="submit" class="form-btn">submit</button>
+              </form>
+
+              <div class="services-slide__description">
+                <p>
+                  I want to absolutely leave a glowing review for John at
+                  Detaxify and and recommend them to anyone I hear of that needs
+                  some Detaxifying. They pulled back the veil from a terrifying
+                  monster and showed me the tools to fight him with. In the end,
+                  after following [their] advice, the IRS actually owes me
+                  money. Thank you again, the time you spent with me. It may be
+                  “par for the course” to you, but it meant more than you know.
+                  Taking time, throwing someone a lifeline, and walking them
+                  through a complicated process is no small thing in the World
+                  we live in. For what it’s worth, you did well today John.
+                  Another human’s life was made better because you and your
+                  company took the time. Thank you Detaxify, and especially
+                  thank you to John.
+                </p>
+                <img src="./img/about-quote.svg" alt="about-quote" />
+              </div>
+              <h5 class="services-slide__author">Shannan Z.</h5>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-items">
+          <div class="footer-item">
+            <div class="item-logo">
+              <a href="#">
+                <img src="./img/logo-footer.png" alt="logo footer" />
+              </a>
+            </div>
+            <p class="item-text">
+              We have helped many individuals and businesses in obtaining tax
+              relief. We can help you negotiate and settle your tax problems
+              with the IRS or state tax authority. Our specialization in
+              representing taxpayers is the experience you need in handling
+              matters before the IRS or state tax authority.
+            </p>
+          </div>
+          <div class="footer-item">
+            <h2 class="item-title">recent posts</h2>
+            <div class="item-wrap">
+              <a href="#" class="item-title__link">
+                Understanding IRS CP504 Notices: What You Need to Know
+              </a>
+              <p class="item-time">
+                <img src="./img/clock.svg" alt="clock" />
+                August 27, 2023
+              </p>
+            </div>
+            <div>
+              <a href="#" class="item-title__link">
+                A Comprehensive Guide on IRS Revenue Officers: When and How to
+                Work with Them
+              </a>
+              <p class="item-time">
+                <img src="./img/clock.svg" alt="clock" />
+                August 26, 2023
+              </p>
+            </div>
+          </div>
+          <div class="footer-item footer-item--links">
+            <h2 class="item-title">extra links</h2>
+            <a href="#" class="item-link">About Us</a>
+            <a href="#" class="item-link">Services</a>
+            <a href="#" class="item-link">Reviews</a>
+            <a href="#" class="item-link">Posts</a>
+            <a href="#" class="item-link">Contact Us</a>
+            <a href="#" class="item-link">Privacy Policy</a>
+          </div>
+
+          <div class="footer-item">
+            <h2 class="item-title">disclaimer</h2>
+            <p class="item-text">
+              **Detaxify Inc will refund monies paid under the Client Agreement
+              within the first 14 calendar days
+              <span class="text-bold">without any penalty or obligation</span>.
+              This money-back guarantee ONLY applies to the fee paid towards the
+              Investigation Phase/Transcript Analysis and NOT for those enrolled
+              with our Immediate Action Team or those that have executed a
+              Resolution Phase Addendum.
+            </p>
+          </div>
+        </div>
+        <div class="footer-socials">
+          <p class="social-copy">
+            © 2023 DETAXIFY INC. All rights reserved. This firm is not a CPA
+            firm.
+          </p>
+          <div class="social-links">
+            <a href="" class="social-links__link">
+              <i class="fa fa-facebook"></i>
+            </a>
+            <a href="" class="social-links__link">
+              <i class="fa fa-twitter"></i>
+            </a>
+            <a href="" class="social-links__link">
+              <i class="fa fa-instagram"></i>
+            </a>
+            <a href="" class="social-links__link">
+              <i class="fa fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="./js/app.js"></script>
+  </body>
+</html>

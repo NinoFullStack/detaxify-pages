@@ -1,0 +1,17 @@
+@media (max-width: 886px)
+    .company-item
+        padding: 0 20px
+
+@media (max-width: 768px)
+    .company
+        &-items
+            flex-wrap: wrap
+        &-item
+            &:not(:last-child)::before
+                height: 0
+            max-width: 80%
+            margin: 0 auto 50px
+
+@media (max-width: 500px)
+    .company-item
+        max-width: 100%

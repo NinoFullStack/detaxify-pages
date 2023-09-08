@@ -1,0 +1,52 @@
+.company
+    margin-top: 85px
+
+    .title
+        margin-bottom: 50px
+        font-family: Lato
+        font-weight: 400
+
+    &-items
+        display: flex
+        justify-content: space-between
+
+    &-item
+        padding: 0 37px
+        position: relative
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+
+
+        &:not(:last-child)::before
+            content: ''
+            width: 1px
+            height: 215px
+            background-color: #347A2A
+            position: absolute
+            right: 0
+
+        .item
+            &-icon
+                color: #347A2A
+                font-size: 54px
+                margin-bottom: 20px
+                margin: 0 auto 20px
+                display: flex
+                justify-content: center
+            &-title
+                color: #222
+                text-align: center
+                font-size: 18px
+                font-weight: 400
+                line-height: 24px
+                letter-spacing: -0.72px
+                margin-bottom: 13px
+            &-description
+                color: #777
+                text-align: center
+                font-family: 'Open Sans'
+                font-size: 14px
+                font-weight: 400
+                line-height: 26px

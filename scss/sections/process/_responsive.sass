@@ -1,0 +1,21 @@
+@media (max-width: 950px)
+    .process-item 
+        .item-icon
+            margin-right: 30px
+        &.process-item--reverse .item-icon
+            margin-left: 30px
+
+@media (max-width: 768px)
+    .process-item 
+        padding: 40px 0 40px
+        .container
+            flex-direction: column
+        .item-icon
+            text-align: center
+            margin-right: 0
+        &.process-item--reverse 
+            .item-icon
+                margin-left: 0
+            .container
+                flex-direction: column
+

@@ -1,0 +1,32 @@
+@media (max-width: 1000px)
+    .about-content 
+        margin-right: 25px
+
+@media (max-width: 950px)
+    .about-row
+        flex-direction: column
+        margin-bottom: 43px
+
+@media (max-width: 768px)
+    .about-content 
+        margin-right: 0
+        .content
+            &-mission
+                flex-direction: column
+                .mission
+                    &-text
+                        margin-bottom: 40px
+                    &-text, &-img
+                        width: 100%
+            &-specialist
+                .specialist
+                    &-text, &-img
+                        width: 100%
+                    &-img
+                        margin-bottom: 10px
+                    &-row
+                        flex-direction: column
+
+@media (max-width: 500px)
+    .about-content .content-specialist .specialist-notification
+        padding: 20px

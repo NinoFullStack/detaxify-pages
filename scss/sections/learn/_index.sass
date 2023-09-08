@@ -1,0 +1,47 @@
+.learn
+    padding: 32px 0 42px
+    &-items
+        display: flex
+        flex-wrap: wrap
+        gap: 28px 50px
+        padding-bottom: 27px
+        border-bottom: 1px solid #DDD
+        margin: 33px 0 30px
+    &-item
+        width: calc(33% - 50px)
+        display: block
+        min-height: 200px
+        background-repeat: no-repeat
+        background-size: cover
+        background-position: center
+        position: relative
+        .item-title
+            padding: 7px 20px
+            color: #FFF
+            text-shadow: 0px 0px 1px #000
+            font-size: 15px
+            font-weight: 700
+            line-height: 21px
+            text-transform: uppercase
+            background: rgba(43, 43, 43, 0.61)
+            text-align: center
+            position: absolute
+            bottom: 0
+            left: 0
+            right: 0
+    &-pagination
+        gap: 11px
+        display: flex
+        .pagination
+            &-item
+                color: #347A2A
+                display: block
+                padding: 12px 15px
+                border: 2px solid #fff
+                transition: .3s all
+                font-weight: 700
+                line-height: 16px
+                &:hover,
+                &--active
+                    border-color: #347A2A
+                    transition: .3s all

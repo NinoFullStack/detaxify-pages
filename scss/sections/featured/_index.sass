@@ -1,0 +1,34 @@
+.featured
+    margin-top: 30px
+
+    .title
+        margin-bottom: 30px
+
+    &-items
+        display: flex
+        justify-content: space-around
+        flex-wrap: wrap
+        
+        .featured-item
+            margin-bottom: 10px
+            &:not(:last-child)
+                margin-right: 20px
+
+        &:last-child
+            margin-top: 20px
+            padding-bottom: 13px
+            border-bottom: 3px solid #2A2A2A
+    &-slide
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 200px
+        height: 100px
+        margin: 0 auto
+        img
+            max-width: 100%
+    &-slider
+        display: none !important
+        border-bottom: 3px solid #2A2A2A
+        .swiper-wrapper
+            padding-bottom: 20px

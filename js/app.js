@@ -91,17 +91,17 @@ const counterUp = () => {
     let duration = Math.floor(interval / endValue)
 
     let counter = setInterval(() => {
-      startValue += 1.1
+      startValue += 1.11
 
       if (startValue <= 100000) {
-        startValue += 1000.1
+        startValue += 1111.11
       }
       if (startValue >= 100000 && !(startValue >= 2000000)) {
-        startValue += 10000.1
+        startValue += 11111.11
       }
 
       if (startValue >= 2000000) {
-        startValue += 1000.11
+        startValue += 1111.11
       }
 
       if (startValue >= 2000000 && startValue <= endValue) {
